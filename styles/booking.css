@@ -1,0 +1,77 @@
+.booking-content {
+  margin: 100px 0;
+}
+.booking-form {
+  display: flex;
+}
+.booking-form-info {
+  margin-right: 70px;
+  display: flex;
+  flex-direction: column;
+}
+.booking-form__title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.booking-form__group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.booking-form__input {
+  height: 20px;
+  width: 250px;
+
+  border-bottom: 1px solid #3432325f;
+}
+.booking-form__label {
+  margin-bottom: 5px;
+  cursor: text;
+}
+.booking-form-services {
+  margin-right: 70px;
+}
+.booking-form__group-services {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.booking-form__input-checkbox {
+  margin-top: -5px;
+  margin-right: 8px;
+  transform: scale(1.1);
+}
+.booking-form-sservices {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.comment {
+  margin-bottom: 15px;
+  width: 250px;
+  height: 20px;
+  border-bottom: 1px solid #3432325f;
+  resize: none;
+  outline: none;
+}
+.booking-form__price {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+.booking-form__price span {
+    font-weight: 700;
+}
+.booking-form__button {
+  width: 250px;
+  height: 40px;
+
+  transition: 0.3s;
+  background-color: #2e2c2c;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 700;
+}
+.booking-form__button:hover {
+  background-color: #fe5722;
+}
